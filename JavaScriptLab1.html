@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>N/a</title>
+        
+    </head>
+    <body>
+    <Script>
+        /***Qustion number 3****/
+         console.log('%cAnswers of Question 3','color:red; background: yellow');
+        /*** c ***/
+        console.log("%cQuestion 3 c: when Creating another embedded script before external script in html and try to call firstName the result will be the same if we define firstName with or without var keyword","color:blue"); 
+        //with var it's not defined
+        //without var not defined
+        
+    </Script>
+    <Script src="external.js"></Script>
+    <Script src="functionsScript.js"></Script>
+    <Script src="FunctionUsingScript.js"></Script>
+    <!-- Qustion 2-->
+    <script>
+        console.log('%cAnswers of Question 2','color:red; background: yellow');
+        
+        <!-- a -->
+        console.log('a-', number1+number2);
+        
+        <!-- b -->
+        console.log('b-',number1+5+4);
+        
+        <!-- c -->
+        var flag = 0;
+        console.log('c-',number2+ flag);
+        
+        <!-- d -->
+        console.log('d-',firstName+ flag);
+        
+        <!-- e -->
+        console.log('e-',number1 + firstName);
+        
+        <!-- f -->
+        console.log('f-',number1 * flag);
+        
+        <!-- g -->
+        console.log('g-',number1 / lastName);
+        
+        <!-- h -->
+        console.log('h-',firstName, lastName);
+        
+        <!-- i -->
+        console.log('i-',lastName.split(""));
+        
+    </script>
+    </body>
+</html>
